@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'Literary Cinema Hub',
   description: 'A curated collection of books, movies, and literary insights',
-  base: '/mtm6407-static-site-yourusername/',
+  base: '/https://github.com/busa0019/Literary-Cinema-Hub/',
   
   head: [
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
