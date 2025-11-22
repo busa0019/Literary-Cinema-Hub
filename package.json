@@ -1,0 +1,17 @@
+{
+  "name": "reading-movies-portfolio",
+  "version": "1.0.0",
+  "description": "A personal portfolio site for book and movie enthusiasts",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0"
+  },
+  "dependencies": {
+    "vue": "^3.3.0"
+  }
+}
