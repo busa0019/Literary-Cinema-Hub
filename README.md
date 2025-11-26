@@ -1,7 +1,7 @@
 # MTM6407 Static Site Project
 
-**Name:** Your Name  
-**Student Number:** 123456789  
+**Name:** Faoziyyah Busari
+**Student Number:** 041141018
 **Static Site Generator:** VitePress
 
 ## Project Description
@@ -37,7 +37,7 @@ Deployment
 The site is configured for automatic deployment to GitHub Pages when pushing to the main branch.
 
 Live Site
-[Add your deployed URL here after deployment]
+(https://literacy-cinema-hub.netlify.app/)
 
 text
 
