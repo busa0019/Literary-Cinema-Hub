@@ -1,7 +1,7 @@
 # MTM6407 Static Site Project
 
 **Name:** Faoziyyah Busari
-**Student Number:** 041141018
+
 **Static Site Generator:** VitePress
 
 ## Project Description
