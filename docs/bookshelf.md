@@ -40,10 +40,10 @@ Explore my personal collection of books with interactive filtering and search.
 
   <div class="book-item" data-genre="non-fiction">
     <div class="book-cover-placeholder">🚀</div>
-    <div class="book-title">Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones</div>
+    <div class="book-title">Atomic Habits</div>
     <div class="book-author">James Clear</div>
     <span class="book-genre">Non-Fiction</span>
-    <span class="status-badge status-completed">Reading</span>
+    <span class="status-badge status-reading">Reading</span>
   </div>
 
    <div class="book-item" data-genre="mystery">
@@ -110,7 +110,7 @@ Explore my personal collection of books with interactive filtering and search.
     <h3>Currently Reading</h3>
     <ul>
       <li><b>The Midnight Library</b> by Matt Haig</li>
-      <li><b>Project Hail Mary</b> by Andy Weir</li>
+      <li><b>Atomic Habits</b> by James Clear</li>
       <li><b>Klara and the Sun</b> by Kazuo Ishiguro</li>
     </ul>
   </div>
