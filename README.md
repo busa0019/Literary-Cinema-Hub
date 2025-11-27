@@ -3,7 +3,7 @@
 | Detail | Value |
 |--------|-------|
 | **Name** | Faoziyyah Busari |
-| **Student Number** | 041110535 |
+| **Student Number** | 041141018 |
 | **Static Site Generator** | VitePress |
 
 ## Project Description
