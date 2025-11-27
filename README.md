@@ -15,6 +15,21 @@ A comprehensive personal portfolio site for book and movie enthusiasts, featurin
 - Modern CSS with custom components
 - Vue.js integration
 
+## Technology Stack
+- **Static Site Generator:** VitePress
+- **Framework:** Vue.js 3
+- **Styling:** Custom CSS with CSS variables
+- **Deployment:** GitHub Pages and Netlify
+- **Features:** Markdown, Vue Components, Responsive Design
+
+## Templates Used
+This project utilizes **multiple templates** to meet the assignment requirements:
+
+1. **Default VitePress Template** - Used for standard content pages
+2. **Custom Vue Component Templates** - Interactive components with unique layouts:
+   - `Bookshelf.vue` - Interactive book collection with filtering
+   - `ReadingProgress.vue` - Reading tracker with progress visualization
+
 ## Setup Instructions
 
 1. **Install dependencies:**

@@ -2,8 +2,6 @@
 
 Explore my personal collection of books with interactive filtering and search.
 
-## Browse by Category
-
 <div class="filter-buttons">
   <button class="filter-btn active" onclick="filterBooks('all')">All Books</button>
   <button class="filter-btn" onclick="filterBooks('fiction')">Fiction</button>
@@ -30,6 +28,30 @@ Explore my personal collection of books with interactive filtering and search.
     <div class="book-author">Andy Weir</div>
     <span class="book-genre">Sci-Fi</span>
     <span class="status-badge status-completed">Completed</span>
+  </div>
+
+  <div class="book-item" data-genre="romance">
+    <div class="book-cover-placeholder">🚀</div>
+    <div class="book-title">The Love Hypothesis</div>
+    <div class="book-author">Ali Hazelwood</div>
+    <span class="book-genre">Romance</span>
+    <span class="status-badge status-completed">Completed</span>
+  </div>
+
+  <div class="book-item" data-genre="non-fiction">
+    <div class="book-cover-placeholder">🚀</div>
+    <div class="book-title">Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones</div>
+    <div class="book-author">James Clear</div>
+    <span class="book-genre">Non-Fiction</span>
+    <span class="status-badge status-completed">Reading</span>
+  </div>
+
+   <div class="book-item" data-genre="mystery">
+    <div class="book-cover-placeholder">🚀</div>
+    <div class="book-title">The Silent Patient</div>
+    <div class="book-author">Alex Michaelides</div>
+    <span class="book-genre">Mystery</span>
+    <span class="status-badge status-completed">Reading</span>
   </div>
 
   <div class="book-item" data-genre="fiction">
@@ -81,61 +103,45 @@ Explore my personal collection of books with interactive filtering and search.
   </div>
 </div>
 
-## Featured Collections
 
-### Currently Reading
-- **The Midnight Library** by Matt Haig
-- **Project Hail Mary** by Andy Weir
-- **Klara and the Sun** by Kazuo Ishiguro
-
-### Recent Favorites
-- **Piranesi** by Susanna Clarke
-- **The Invisible Life of Addie LaRue** by V.E. Schwab
-- **The House in the Cerulean Sea** by T.J. Klune
-
-### Classics Corner
-- **Pride and Prejudice** by Jane Austen
-- **1984** by George Orwell
-- **To Kill a Mockingbird** by Harper Lee
-
-## Reading Goals 2024
-
-- **Target**: 100 books
-- **Current Progress**: 89/100
-- **Genres to Explore**: More non-fiction, historical fiction
-- **Pages Read**: 28,450
-
-<div class="reading-progress-bar">
-  <div class="reading-progress-fill" style="width: 89%"></div>
+## Featured Collections 🏆
+<div class="authors-grid">
+  <div class="book-card">    
+    <h3>Currently Reading</h3>
+    <ul>
+      <li><b>The Midnight Library</b> by Matt Haig</li>
+      <li><b>Project Hail Mary</b> by Andy Weir</li>
+      <li><b>Klara and the Sun</b> by Kazuo Ishiguro</li>
+    </ul>
+  </div>
+  <div class="book-card classic">    
+    <h3>Recent Favorites</h3>
+    <ul>
+      <li><b>Piranesi</b> by Susanna Clarke</li>
+      <li><b>The Invisible Life of Addie LaRue</b> by V.E. Schwab</li>
+      <li><b>The House in the Cerulean Sea</b> by T.J. Klune</li>
+    </ul>
+  </div>
+  <div class="book-card">    
+    <h3>Classics Corner</h3>
+    <ul>
+      <li><b>Pride and Prejudice</b> by Jane Austen</li>
+      <li><b>1984</b> by George Orwell</li>
+      <li><b>To Kill a Mockingbird</b> by Harper Lee</li>
+    </ul>
+  </div>
 </div>
-
-<script>
-function filterBooks(genre) {
-  const books = document.querySelectorAll('.book-item');
-  const buttons = document.querySelectorAll('.filter-btn');
-  
-  // Update active button
-  buttons.forEach(btn => {
-    btn.classList.remove('active');
-    if (btn.textContent.toLowerCase().includes(genre)) {
-      btn.classList.add('active');
-    }
-  });
-  
-  // Filter books
-  books.forEach(book => {
-    if (genre === 'all' || book.dataset.genre === genre) {
-      book.style.display = 'block';
-    } else {
-      book.style.display = 'none';
-    }
-  });
-}
-</script>
-
-<style>
-.book-cover-placeholder {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-}
-</style>
+<div class="book-card classic">
+  <h3>2025 Reading Goals</h3>
+  <ul>    
+    <li><b>Target</b>: 100 books</li>
+    <li><b>Current Progress</b>: 89/100</li>
+    <li><b>Genres to Explore</b>: More non-fiction, historical fiction</li>
+    <li><b>Pages Read</b>: 28,450</li>
+  </ul>
+  
+  <p><b>Goal Completion Progress (89%)</b></p>
+  <div class="reading-progress-bar">
+    <div class="reading-progress-fill" style="width: 89%"></div>
+  </div>
+</div>
