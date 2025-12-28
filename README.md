@@ -1,9 +1,8 @@
-# MTM6407 Static Site Project: Literacy & Cinema Hub
+# Static Site Project: Literacy & Cinema Hub
 
 | Detail | Value |
 |--------|-------|
 | **Name** | Faoziyyah Busari |
-| **Student Number** | 041141018 |
 | **Static Site Generator** | VitePress |
 
 ## Project Description
