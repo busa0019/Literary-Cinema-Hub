@@ -72,7 +72,7 @@ The project utilizes distinct layouts to satisfy the assignment requirement of u
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/mtm6407-static-site-faozee.git
+git clone https://github.com/busa0019/Literary-Cinema-Hub.git
 
 # Navigate to project directory
 cd mtm6407-static-site-faozee
